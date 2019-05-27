@@ -18,6 +18,7 @@ app.set('views', views_path);
 
 app.get('', (req, res) => {
     res.render('index', {
+        static_path: 'public',
         title: 'Weather App',
         name: 'ArunKumar Arjunan'
     }
