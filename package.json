@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-web-app-js",
+  "version": "0.0.0",
+  "description": "NodejsWebAppJS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.4"
+  }
+}
