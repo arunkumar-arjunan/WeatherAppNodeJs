@@ -14,7 +14,7 @@ app.set('view engine', 'hbs');
 app.set('views', views_path);
 
 //Setup static directory to save
-//app.use(express.static(public_dir_path));
+app.use(express.static(public_dir_path));
 
 app.get('', (req, res) => {
     res.render('index', {
